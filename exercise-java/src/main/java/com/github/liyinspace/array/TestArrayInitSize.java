@@ -22,6 +22,7 @@ public class TestArrayInitSize {
             list.add(i);
         }
 
+        System.out.println(Arrays.toString(list.toArray()));
         System.out.println(System.currentTimeMillis() - start);
     }
 
@@ -35,7 +36,7 @@ public class TestArrayInitSize {
         System.out.println(Arrays.toString(newIntArray));
     }
 
-    public static void main(String[] args) {
+    public static void main2(String[] args) {
 
         List list = new ArrayList();
 
@@ -50,5 +51,9 @@ public class TestArrayInitSize {
         System.out.println(Arrays.toString(list.toArray()));
 
 
+    }
+
+    public static void main(String[] args) {
+        testAddOfArray();
     }
 }
