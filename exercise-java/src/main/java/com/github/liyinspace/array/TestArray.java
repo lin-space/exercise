@@ -1,3 +1,5 @@
+package com.github.liyinspace.array;
+
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
@@ -10,12 +12,12 @@ public class TestArray {
     /**
      * 容器最大长度
      */
-    public static final int MAX_SIZE = 100000;
+    private static final int MAX_SIZE = 100000;
 
 
     /**
      * 程序入口
-     * @param args
+     * @param args 参数
      */
     public static void main(String[] args) {
 
