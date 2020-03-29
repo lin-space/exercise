@@ -1,7 +1,10 @@
 package com.github.liyinspace.array;
 
 
+import com.github.liyinspace.linked.DemoLinkedList;
+
 import java.util.Arrays;
+import java.util.LinkedList;
 
 /**
  * Created with Intellij IDEA
@@ -36,6 +39,17 @@ public class TestArrayInitSize {
         System.out.println(Arrays.toString(newIntArray));
     }
 
+    private static void testDemoLinkedList(){
+        DemoLinkedList<Integer> demoLinkedList = new DemoLinkedList<>();
+
+        for (int i = 0; i < 10; i++) {
+            demoLinkedList.add(i);
+        }
+
+        System.out.println(Arrays.toString(demoLinkedList.toArray()));
+
+    }
+
     public static void main2(String[] args) {
 
         List list = new ArrayList();
@@ -54,6 +68,10 @@ public class TestArrayInitSize {
     }
 
     public static void main(String[] args) {
-        testAddOfArray();
+//        testAddOfArray();
+
+//        LinkedList linkedList = new LinkedList();
+
+        testDemoLinkedList();
     }
 }
