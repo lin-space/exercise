@@ -1,7 +1,5 @@
 package com.github.liyinspace.proxy;
 
-import sun.misc.ClassLoaderUtil;
-
 import java.lang.reflect.Proxy;
 
 /**
