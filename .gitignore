@@ -2,6 +2,7 @@
 .project
 *.iml
 *.log
+*.class
 *.classpath
 /.idea
 
